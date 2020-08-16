@@ -1,0 +1,36 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "can able to post and comment on post by logging in",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hari-the-bad-boy/chatAPP.git"
+  },
+  "author": "Hari Haran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hari-the-bad-boy/chatAPP/issues"
+  },
+  "homepage": "https://github.com/hari-the-bad-boy/chatAPP#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "local-storage": "^2.0.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.3.4"
+  }
+}
